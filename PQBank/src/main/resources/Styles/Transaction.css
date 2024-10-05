@@ -1,0 +1,62 @@
+.transaction_container {
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+}
+
+
+.transaction_container .list-view{
+    -fx-padding: 0 10 0 10;
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-border-color: white;
+}
+
+.transaction_container .list-cell {
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+    -fx-pref-width: 800;
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #c86400;
+    -fx-padding: 10 10 10 0;
+}
+
+.text_header {
+    -fx-fill: #FFFFFF;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Cascadia Code";
+}
+
+
+
+.line_sep {
+    -fx-fill: #ca9865;
+}
+
+.deposit_container {
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+    -fx-background-radius: 15;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+    -fx-border-color: white;
+    -fx-spacing: 20;
+}
+
+.deposit_container Text {
+    -fx-font-family: "Cascadia Code";
+    -fx-fill: #FFFFFF;
+}
+.deposit_container Button {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.3em;
+    -fx-background-color: #2C3E50;
+    -fx-alignment: center;
+}
+
+.deposit_container Button:hover {
+    -fx-cursor: hand;
+}
+.text_section {
+    -fx-fill: white;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Cascadia Code";
+}

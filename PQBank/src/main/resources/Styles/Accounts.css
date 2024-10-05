@@ -1,0 +1,65 @@
+.account_container {
+    -fx-background-color: white;
+    -fx-spacing: 25;
+}
+
+
+.overlay_container {
+    -fx-background-color:white;
+    -fx-background-radius: 10;
+}
+
+
+
+.section_title {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.6em;
+    -fx-fill: #FFFFFF;
+}
+
+.account_info {
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+    -fx-background-radius: 10;
+    -fx-spacing: 10;
+    -fx-border-color: white;
+}
+
+
+.account_info Text {
+    -fx-font-size: 1.4em;
+    -fx-font-family: "Cascadia Code";
+    -fx-fill: white;
+}
+
+
+.account_info Label {
+   -fx-font-size: 1.4em;
+   -fx-font-family: "Cascadia Code";
+   -fx-fill: white;
+}
+
+
+.transfer_container {
+    /*-fx-background-color: linear-gradient(to right, #2d2c2d, #30241f) ;*/
+    -fx-background-radius: 10;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+
+.transfer_container Text {
+    -fx-font-size: 1.4em;
+        -fx-font-family: "Cascadia Code";
+        -fx-fill: #2C3E50;
+}
+
+.transfer_container Button {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.3em;
+    -fx-background-color: #2C3E50;
+    -fx-alignment: center;
+    -fx-fill: #FFFFFF;
+}
+
+.transfer_container Button:hover {
+    -fx-cursor: hand;
+}

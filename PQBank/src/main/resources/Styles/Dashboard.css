@@ -1,0 +1,204 @@
+.dashboard {
+    -fx-background-color: white;
+}
+.center_dashboard {
+   -fx-background-color: white;
+}
+.bg{
+    -fx-background-color: white;
+}
+
+.center_dashboard Label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.section_title {
+    -fx-font-family: "Mexon";
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+    -fx-text-fill: #2C3E50;
+    -fx-background-color: white;
+}
+
+.date_lbl {
+    -fx-text-fill: #AAAAAA;
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Cascadia Code";
+}
+
+/* Account View {Account Cards} */
+
+.account_view{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius:10 0 0 10;
+    -fx-padding:10 0 10 0;
+    -fx-alignment:center;
+    -fx-border-width:0 1 0 0;
+    -fx-border-color:white;
+    -fx-spacing:10;
+}
+
+.account {
+    -fx-pref-width: 330;
+    -fx-pref-height: 180;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, #AAAAAA, 10, 0, 0, 10);
+
+}
+
+.account:hover {
+    -fx-cursor: hand;
+}
+.account_gradient {
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+}
+
+.account_balance {
+    -fx-text-fill: black;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.5em;
+    -fx-text-alignment: center;
+}
+
+.account_logo {
+    -fx-font-family: Mexon;
+    -fx-font-size: 1.4em;
+    -fx-text-fill: #333333;
+}
+
+.account_fullName{
+    -fx-text-fill: white;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.3em;
+}
+
+.account_number {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.4em;
+    -fx-text-alignment: center;
+}
+
+.account_date {
+    -fx-font-size: 1.2em;
+    -fx-fill: #FFFFFF;
+    -fx-font-family: "Cascadia Code";
+}
+
+
+.income_account {
+    -fx-text-fill: #00AA00;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.4em;
+}
+.expenses_account {
+    -fx-text-fill: #AA0000;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.4em;
+}
+
+
+.center_dashboard .list-view{
+    -fx-padding: 0 10 0 10;
+    -fx-background-color:white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-border-color: #2C3E50;
+
+}
+
+.center_dashboard .list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.center_dashboard .list-cell {
+    -fx-background-color: white;
+    /*-fx-pref-width: 800;*/
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #c86400;
+    -fx-padding: 10 0 10 0;
+    -fx-background-radius: 10;
+    /*-fx-spacing: 15;*/
+
+}
+
+
+/* Right Dashboard */
+
+
+.right_dashboard {
+    -fx-background-color:white;
+}
+
+.right_dashboard Text{
+    -fx-fill: black;
+}
+
+
+.right_dashboard Label{
+    -fx-fill: white;
+}
+
+.right_section_title {
+    -fx-font-size: 1.3em;
+    -fx-font-family: "Cascadia Code";
+    -fx-fill: white;
+}
+
+.small_card{
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+    -fx-background-radius: 15;
+    -fx-border-color: white;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+}
+.small_card Label{
+    -fx-font-family: "Cascadia Code";
+    -fx-fill: white;
+}
+.small_card Text{
+    -fx-fill: white;
+}
+
+.right_card_amount {
+    -fx-fill: white;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.4em;
+    -fx-text-alignment: center;
+}
+.right_card_debt {
+    -fx-fill: white;
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1.4em;
+    -fx-text-alignment: center;
+}
+
+
+.card_info {
+    -fx-background-color:linear-gradient(to right,#2C3E50,#8AB9C3);
+    -fx-background-radius: 15;
+    -fx-border-color: white;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-spacing: 15;
+    -fx-fill: white;
+}
+
+.card_info Text {
+    -fx-fill: white;
+}
+
+.card_info Label {
+    -fx-font-family: "Cascadia Code";
+    -fx-fill: white;
+}
+.slogan {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1em;
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-fill: white;
+}
+

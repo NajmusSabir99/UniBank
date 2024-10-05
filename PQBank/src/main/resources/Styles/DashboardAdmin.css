@@ -1,0 +1,95 @@
+.dashboard_container{
+     -fx-background-color: white;
+}
+.section_title {
+    -fx-font-size: 1.4em;
+    -fx-font-family: "Cascadia Code";
+    -fx-fill: #2C3E50;
+}
+.lineChart{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: #2c3e50;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 10;
+    -fx-stroke: blue;
+}
+.lineChart .axis-label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Cascadia Code";
+
+}
+.center_dashboard{
+     -fx-background-color:white;
+}
+.dashboard_container .list-view{
+    -fx-padding: 10 0 10 0;
+     -fx-background-color:white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-border-color: #2c3e50;
+}
+.dashboard_container .list-cell {
+    -fx-background-color: white;
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: white;
+}
+.date_time{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 1.2em;
+    -fx-font-family: "Cascadia Code";
+}
+.right_dash_board {
+    -fx-background-color: white;
+}
+.right_dash_board Text {
+    -fx-fill: white;
+    -fx-font-family: "Cascadia Code";
+
+}
+.right_dash_board Label {
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Cascadia Code";
+
+}
+.summary_container {
+    -fx-background-color:#8AB9C3;
+    -fx-background-radius: 20;
+    -fx-border-color: white;
+    -fx-border-radius: 15;
+    -fx-border-width: 2;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+}
+.function_box {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 2;
+    -fx-alignment: center;
+}
+.color1 {
+     -fx-background-color:#8AB9C3;
+}
+.color2 {
+      -fx-background-color:#8AB9C3;
+}
+.color3 {
+     -fx-background-color:#8AB9C3;
+}
+.color4 {
+     -fx-background-color:#8AB9C3;
+}
+.function_box Text {
+    -fx-text-alignment: center;
+    -fx-fill: #FFF;
+}
+.slogan {
+    -fx-font-family: "Cascadia Code";
+    -fx-font-size: 1em;
+    -fx-fill: black;
+    -fx-text-alignment: center;
+}
+.sepLine {
+    -fx-fill: #2C3E50;
+}

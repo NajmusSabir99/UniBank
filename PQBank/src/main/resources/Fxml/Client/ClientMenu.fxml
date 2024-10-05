@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="200.0" styleClass="main_menu_container" stylesheets="@../../Styles/ClientMenu.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pqbank.Controllers.Client.ClientMenuController">
+   <AnchorPane prefHeight="900.0" prefWidth="200.0" styleClass="left_container">
+      <VBox prefHeight="244.0" prefWidth="234.0" styleClass="title_container" AnchorPane.bottomAnchor="656.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <ImageView fitHeight="102.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../../Images/bank.png" />
+            </image>
+         </ImageView>
+         <Label alignment="CENTER" prefHeight="43.0" prefWidth="200.0" styleClass="title_container" text="UniBank" textAlignment="CENTER">
+            <font>
+               <Font size="11.0" />
+            </font>
+         </Label>
+         <Line endX="68.01051330566406" endY="-7.62939453125E-6" startX="-70.15238952636719" startY="-7.62939453125E-6" styleClass="line" />
+      </VBox>
+      <VBox layoutY="224.0" prefHeight="353.0" prefWidth="216.0" styleClass="menu_container" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="224.0">
+         <Button fx:id="dashboard_btn" maxWidth="155.0" mnemonicParsing="false" text="Dashboard">
+            <graphic>
+               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../Images/dashboard.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="transaction_btn" maxWidth="155.0" mnemonicParsing="false" text="Transaction">
+            <graphic>
+               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../Images/handshake.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="account_btn" maxWidth="155.0" mnemonicParsing="false" text="Account">
+            <graphic>
+               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../Images/profile.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+         <Button fx:id="logout_btn" maxWidth="155.0" mnemonicParsing="false" text="Logout">
+            <graphic>
+               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../Images/logout.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+      </VBox>
+      <VBox layoutX="6.0" layoutY="737.0" prefHeight="144.0" prefWidth="160.0" styleClass="report_container" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="737.0">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Report Bugs?" />
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Click here to report bugs !" />
+         <Button fx:id="report_btn" maxWidth="155.0" mnemonicParsing="false" text="Report">
+            <graphic>
+               <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../../Images/error.png" />
+                  </image>
+               </ImageView>
+            </graphic>
+         </Button>
+      </VBox>
+   </AnchorPane>
+</VBox>

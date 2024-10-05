@@ -1,0 +1,35 @@
+.trans_container {
+    -fx-background-color:white;
+    -fx-background-radius: 10;
+}
+
+.cell_container{
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-width: 1;
+
+    -fx-border-radius: 10;
+    -fx-pref-height: 40;
+    -fx-alignment: center;
+    -fx-fill: #000000;
+}
+.trans_icon{
+    -fx-fill: #000000;
+}
+.date-time {
+    -fx-text-fill: #000000;
+    -fx-font-family: "Cascadia Code";
+}
+
+.payee_address {
+    -fx-text-fill: #000000;
+    -fx-font-family: "Cascadia Code";
+}
+
+.amount_money {
+    -fx-text-fill: #2C3E50;
+    -fx-font-family: "Cascadia Code";
+}
+.amount_icon{
+    -fx-fill: #2C3E50;
+}

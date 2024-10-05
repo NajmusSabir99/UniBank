@@ -1,0 +1,39 @@
+.clientCell_container {
+    -fx-background-radius: 10;
+    -fx-font-family: "Cascadia Code";
+    -fx-background-color:white;
+
+}
+
+.info_icon {
+    -fx-fill: #FFFFFF;
+    -fx-background-color: none;
+    -fx-text-fill: #FFFFFF;
+}
+.info_icon:hover {
+    -fx-cursor: hand;
+}
+
+.info_container {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+}
+
+.fullName {
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #5e3812;
+}
+.payeeAddress {
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #4d650c;
+}
+.checking_lbl {
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #73736b;
+}
+.saving_lbl {
+    -fx-font-family: "Cascadia Code";
+    -fx-text-fill: #305d5d;
+}
+
+
